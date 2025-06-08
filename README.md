@@ -8,7 +8,7 @@ The foundational paper introduces the core principles of the theory. It has been
 
 **[Link to your arXiv paper will be posted here soon]**
 
-You can also read the final PDF directly in this repository: [zurvan.pdf](zurvan.pdf)
+You can also read the final PDF directly in this repository: [zurvan_v2en.pdf](zurvan_v2en.pdf)
 
 ## Project Goal
 
