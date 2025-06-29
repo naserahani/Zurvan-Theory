@@ -1,22 +1,57 @@
-# The Zurvan Theory: A Conceptual Framework
-
-This repository is the official home for the Zurvan Theory, a conceptual framework proposing a unitary origin for spacetime, matter, and forces. Our goal is to foster an open, collaborative environment to explore and develop this idea.
-
-## The Paper
-
-The foundational paper introduces the core principles of the theory. It has been submitted to arXiv and will be available at the following link once announced:
-
-**[Link to your arXiv paper will be posted here soon]**
-
-You can also read the final PDF directly in this repository: [zurvan_v2en.pdf](zurvan_v2en.pdf)
-
-## Project Goal
-
-The primary long-term goal of this project is to develop a rigorous mathematical formalism for the Zurvan framework that can produce testable predictions.
-
-## Invitation to Collaborate
-
-This is an ambitious, early-stage project. We welcome collaboration from physicists, mathematicians, philosophers, and anyone interested in the foundational questions of science. All constructive feedback, critiques, and new ideas are highly encouraged.
-
-**How to Contribute:**
-The best way to start a discussion or propose a new idea is by opening an "Issue." Please use the **Issues** tab at the top of this repository to ask questions, share insights, or suggest new lines of inquiry.
+نظریه زروان: طرحی برای استخراج ساختار فضا-زمان از یک اصل واحد
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17326887/223708307-e54d385f-8616-41c1-8b06-444e7c70c175.png" alt="Zurvan Theory" width="250"/>
+</p>
+<p align="center">
+<b>یک چارچوب مفهومی برای وحدت در فیزیک بنیادی</b>
+<br />
+<a href="https://github.com/naserahani/Zurvan-Theory/issues">بحث علمی و نقد</a>
+·
+<a href="https://github.com/naserahani/Zurvan-Theory/blob/main/docs/Zurvan_Theory_Whitepaper_FA.pdf">دانلود مقاله</a>
+·
+<a href="https://www.researchgate.net/profile/Nasser-Ahani-3">پروفایل ResearchGate</a>
+</p>
+چکیده (Abstract)
+نظریه زروان یک چارچوب مفهومی بدیع است که پیشنهاد می‌کند کل موجودیت جهان ما - شامل فضا، زمان، ماده و تمام نیروهای بنیادی - همگی آثار پدیداری (Emergent Phenomena) از رفتار یک موجودیت فیزیکی واحد و بنیادین به نام "زروان" هستند. این دیدگاه، به جای تلاش برای آشتی دادن نظریه‌های موجود، به دنبال استخراج تمامی پدیده‌های فیزیکی از یک اصل اولیه و واحد است. هدف این پروژه، آغاز یک گفتگوی علمی و دعوت به همکاری برای توسعه فرمالیسم ریاضی این ایده و بررسی پیامدهای نظری و تجربی آن است.
+۱. مسئله: پرسش‌های بنیادین بی‌پاسخ
+فیزیک مدرن، با وجود موفقیت‌های چشمگیر، در مرزهای دانش خود با پرسش‌های عمیقی روبروست:
+منشأ فضا-زمان: آیا فضا و زمان، مفاهیمی بنیادین هستند یا خود از یک فرآیند عمیق‌تر پدیدار شده‌اند؟
+وحدت نیروها: چگونه می‌توان چهار نیروی بنیادی طبیعت را در یک چارچوب واحد و منسجم توصیف کرد؟
+طبیعت کوانتوم: چرا واقعیت در مقیاس کوانتومی، احتمالی و غیرجبری به نظر می‌رسد، در حالی که در مقیاس ماکروسکوپی جبری است؟
+تکینگی‌ها: ماهیت واقعی بیگ بنگ و تکینگی سیاه‌چاله‌ها چیست و چگونه می‌توان از بی‌نهایت‌های فیزیکی اجتناب کرد؟
+۲. پیشنهاد زروان (The Zurvan Proposal)
+نظریه زروان برای پاسخ به این پرسش‌ها، یک موجودیت واحد را به عنوان پایه و اساس کل هستی معرفی می‌کند:
+زروان، یک نوسانگر بنیادین:
+تصور کنید یک "ذره" یا نوسانگر واحد در هر لحظه، در یک نقطه از یک فضای چندبعدی بالاتر وجود دارد. این موجودیت (زروان)، با سرعتی فوق‌العاده (در حد زمان پلانک) بین تمام نقاط ممکن در جهان ما حرکت کرده و در هر نقطه نوسان می‌کند.
+تمام پدیده‌های فیزیکی، حاصل این نوسان هستند:
+فضا و زمان: این‌ها بافت‌های پیوسته و بنیادین نیستند، بلکه توهمی پدیدار شده از مسیر حرکت و فرکانس نوسان زروان هستند.
+ماده: هر "ریسمان" یا ذره بنیادی، در واقع یک نقطه پایدار در الگوی نوسانی زروان است.
+نیروها: چهار نیروی بنیادی، مظاهر مختلف رفتار نوسانی زروان در فواصل متفاوت بین این نقاط پایدار (ریسمان‌ها) هستند.
+عدم قطعیت کوانتومی: این یک اصل بنیادین نیست، بلکه یک اثر آماری است که به دلیل عدم توانایی ما در ردیابی مسیر دقیق و فوق سریع زروان پدیدار می‌شود (مشابه رابطه بین دمای گاز و حرکت جبری مولکول‌های آن).
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17326887/223708316-01a2f9a7-932b-426c-8463-c7e6c921508a.gif" alt="Conceptual model of Zurvan's oscillation" width="500"/>
+<br />
+<i>مدل مفهومی از نوسان زروان و ایجاد "ریسمان" به عنوان یک الگوی پایدار.</i>
+</p>
+۳. نقشه راه و چالش‌های پیش‌رو (Roadmap)
+این چارچوب در مراحل اولیه توسعه قرار دارد. مهم‌ترین گام‌های بعدی عبارتند از:
+[ ] فاز ۱: فرمول‌بندی ریاضی:
+توسعه یک مدل ریاضی دقیق برای توصیف فضای نوسان زروان.
+استخراج معادلات حرکت برای زروان.
+مدلسازی ریاضی "ریسمان" به عنوان یک حالت پایدار در میدان نوسانی زروان.
+[ ] فاز ۲: پیامدهای نظری:
+استخراج چهار نیروی بنیادی از مدل.
+توضیح ریاضی پدیدار شدن عدم قطعیت کوانتومی.
+مدلسازی تکینگی بیگ بنگ و سیاه‌چاله‌ها.
+[ ] فاز ۳: آزمون‌پذیری تجربی:
+شناسایی پیش‌بینی‌های منحصربه‌فرد نظریه که آن را از مدل استاندارد متمایز می‌کند.
+ارائه پیشنهاداتی برای آزمایش‌های قابل انجام (در کیهان‌شناسی یا فیزیک ذرات).
+۴. دعوت به همکاری و مشارکت (Call for Collaboration)
+این پروژه، یک تلاش بین‌رشته‌ای است و موفقیت آن در گرو همکاری متخصصان از حوزه‌های مختلف است. ما صمیمانه از جامعه علمی، به ویژه فیزیکدانان نظری، ریاضیدانان و فیلسوفان علم، دعوت می‌کنیم تا در این سفر علمی به ما بپیوندند.
+چگونه می‌توانید مشارکت کنید؟
+بحث و نقد علمی: بهترین مکان برای به چالش کشیدن، نقد کردن و بحث در مورد این ایده، بخش Issues این مخزن است. لطفاً بزرگترین اشکالات یا سوالات خود را در آنجا مطرح کنید.
+مشارکت در توسعه: اگر به همکاری در توسعه مدل ریاضی یا جنبه‌های دیگر علاقه‌مندید، لطفاً یک issue جدید باز کرده و زمینه علاقه خود را مشخص کنید.
+هدف ما، نه دفاع از یک نظریه، بلکه رسیدن به حقیقت از طریق گفتگوی علمی شفاف و نقادانه است.
+ناصر آهنی
+<br>
+محقق مستقل و مهندس نرم‌افزار
