@@ -2,16 +2,7 @@
 
 % --- UNIVERSAL PREAMBLE BLOCK (Adapted for Farsi) ---
 \usepackage[a4paper, top=2cm, bottom=2cm, left=1.5cm, right=1.5cm, columnsep=1cm]{geometry}
-\usepackage{fontspec}
-\usepackage[farsi, bidi=basic, provide=*]{babel}
-\babelprovide[import, onchar=ids fonts]{farsi}
-\babelprovide[import, onchar=ids fonts]{english}
-
-% تنظیم فونت‌ها (استفاده از نسخ برای خوانایی بهتر)
-\babelfont{rm}{Noto Sans}
-\babelfont{sf}{Noto Sans}
-\babelfont[farsi]{rm}{Noto Naskh Arabic}
-\babelfont[farsi]{sf}{Noto Naskh Arabic}
+% فونت‌ها و پشتیبانی فارسی با xepersian بارگذاری می‌شوند (پایین سربرگ)
 
 \usepackage{enumitem}
 \setlist[itemize]{label=-}
@@ -23,6 +14,11 @@
 \usepackage{booktabs} % برای جدول‌ها (اختیاری)
 \usepackage[unicode=true, colorlinks=true, linkcolor=blue, urlcolor=blue, breaklinks=true]{hyperref}
 
+% --- پشتیبانی فارسی (باید پس از hyperref بارگذاری شود) ---
+\usepackage{xepersian}
+\settextfont{Vazirmatn}
+\setlatintextfont{DejaVu Serif}
+
 % --- اطلاعات سند ---
 \title{چارچوب نظریه زروان: \\ \large \texorpdfstring{استخراج ثابت بنیادین اطلاعات هولوگرافیک کیهان ($N_Z$)}{استخراج ثابت بنیادین اطلاعات هولوگرافیک کیهان (NZ)}}
 \author{ناصر آهنی}
@@ -33,14 +29,14 @@
 
 \begin{document}
 
-\selectlanguage{farsi}
+
 
 % --- بخش عنوان و چکیده ---
 \twocolumn[
   \begin{@twocolumnfalse}
     \maketitle
     \begin{abstract}
-    \selectlanguage{farsi}
+    
     \noindent
     \textbf{چکیده:} فیزیک معاصر با شکاف عمیقی میان نسبیت عام (GR) و مکانیک کوانتومی (QM) روبروست. این مقاله چارچوب مفهومی «نظریه زروان» را به عنوان یک راه‌حل وحدت‌بخش معرفی می‌کند. زروان فرض می‌کند که فضا-زمان، ماده و نیروها، همگی پدیده‌هایی برآمده (Emergent) از یک فرآیند جبری (Deterministic) واحد در مقیاسی بنیادین‌تر از مقیاس پلانک هستند. عدم قطعیت کوانتومی در این دیدگاه، یک اثر آماری ناشی از محدودیت مشاهده‌گری ما از این فرآیند فوق سریع ($T_{pp}$) است. موفقیت این نظریه به تعیین «تعداد کل درجات آزادی اطلاعاتی» ($N_Z$) بستگی دارد که مقیاس زروان را به مقیاس پلانک ($T_p$) مرتبط می‌سازد ($T_{pp} = T_p / N_Z$). این مقاله با استفاده از «اصل هولوگرافیک» به عنوان یک پل مفهومی، پارامتر $N_Z$ را معادل آنتروپی کل هولوگرافیک جهان قابل مشاهده تعریف می‌کند. ما با بهره‌گیری از ثوابت بنیادین فیزیکی و داده‌های کیهان‌شناسی معاصر (شامل $H_0$ و $\Omega_\Lambda$)، یک فرمول دقیق برای $N_Z$ استخراج و مقدار آن را محاسبه می‌کنیم. این ثابت جدید، $N_Z \approx 3.31 \times 10^{123}$، به عنوان سنگ بنای ریاضی برای فرمول‌بندی‌های آتی نظریه زروان عمل خواهد کرد.
     \vspace{1cm}
@@ -178,7 +174,7 @@ T_{pp} = \frac{T_p}{N_Z} \approx \frac{5.39 \times 10^{-44}}{3.31 \times 10^{123
 
 % --- بخش مراجع ---
 \begin{thebibliography}{9}
-\selectlanguage{farsi}
+
 \bibitem{1} آهنی، ناصر. (۲۰۲۴). "تجلی معنا از دل نوسان" (\texttt{zurvan2fa.pdf}) و "فهرست جامع ثابتهای فیزیکی" (\texttt{sabet.pdf}). اسناد پژوهشی.
 \bibitem{2} (اشاره به ادبیات استاندارد در مورد ناسازگاری GR و QM، مانند Penrose, R. (2004). \textit{The Road to Reality}).
 \bibitem{3} Green, M. B., Schwarz, J. H., \& Witten, E. (1987). \textit{Superstring Theory}. Cambridge University Press.
