@@ -1,0 +1,109 @@
+# ---------- LaTeX ----------
+# خروجی‌های کامپایل
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.fls
+*.fdb_latexmk
+*.toc
+*.lof
+*.lot
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.brf
+*.lol
+*.xdv
+*.dvi
+*.pdfsync
+*.figlist
+*.makefile
+*.auxlock
+
+# فایل‌های موقت ویرایشگرهای LaTeX
+*.tex.bak
+*.tex~
+.texpadtmp/
+_minted*/
+*.pyg
+
+# نکته: PDF نهایی مقاله‌ها عمداً ردگیری می‌شود (papers/*/*.pdf)
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# محیط‌های مجازی
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ابزارهای تست و پوشش
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---------- خروجی‌های محاسباتی حجیم ----------
+calculations/**/output/
+calculations/**/cache/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# ---------- سیستم‌عامل و ویرایشگر ----------
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
