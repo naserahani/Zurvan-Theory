@@ -1,96 +1,89 @@
-<div dir="rtl" align="right">
-<p align="center">
-<img src="zurvan-logo.png" alt="لوگوی مفهومی نظریه زروان" width="250"/>
-</p>
-<h1 align="center">نظریه زروان: طرحی برای استخراج ساختار جهان از یک اصل واحد</h1>
-<p align="center">
-<b>یک چارچوب مفهومی برای وحدت در فیزیک بنیادی</b>
-</p>
-<p align="center">
-<a href="https://github.com/naserahani/Zurvan-Theory/issues"><b>مشارکت در بحث علمی و نقد</b></a>
-&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/naserahani/Zurvan-Theory/blob/main/retired/Zurvan_Theory_Whitepaper_FA.pdf"><b>دانلود مقاله (PDF)</b></a>
-&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
-<a href="https://www.researchgate.net/profile/Nasser-Ahani-3"><b>پروفایل ResearchGate</b></a>
-</p>
-<h2>چکیده (Abstract)</h2>
-<p>
-نظریه زروان یک چارچوب مفهومی بدیع است که پیشنهاد می‌کند کل موجودیت جهان ما - شامل فضا، زمان، ماده و تمام نیروهای بنیادی - همگی <b>آثار پدیداری (Emergent Phenomena) از رفتار یک موجودیت فیزیکی واحد و بنیادین</b> به نام "زروان" هستند. این دیدگاه، به جای تلاش برای آشتی دادن نظریه‌های موجود، به دنبال استخراج تمامی پدیده‌های فیزیکی از یک اصل اولیه و واحد است. هدف این پروژه، آغاز یک گفتگوی علمی و دعوت به همکاری برای توسعه فرمالیسم ریاضی این ایده و بررسی پیامدهای نظری و تجربی آن است.
-</p>
-<h2>۱. مسئله: پرسش‌های بنیادین بی‌پاسخ</h2>
-<p>
-فیزیک مدرن، با وجود موفقیت‌های چشمگیر، در مرزهای دانش خود با پرسش‌های عمیقی روبروست:
-</p>
-<ul>
-<li><b>منشأ فضا-زمان:</b> آیا فضا و زمان، مفاهیمی بنیادین هستند یا خود از یک فرآیند عمیق‌تر پدیدار شده‌اند؟</li>
-<li><b>وحدت نیروها:</b> چگونه می‌توان چهار نیروی بنیادی طبیعت را در یک چارچوب واحد و منسجم توصیف کرد؟</li>
-<li><b>طبیعت کوانتوم:</b> چرا واقعیت در مقیاس کوانتومی، احتمالی و غیرجبری به نظر می‌رسد، در حالی که در مقیاس ماکروسکوپی جبری است؟</li>
-<li><b>تکینگی‌ها:</b> ماهیت واقعی بیگ بنگ و تکینگی سیاه‌چاله‌ها چیست و چگونه می‌توان از بی‌نهایت‌های فیزیکی اجتناب کرد؟</li>
-</ul>
-<h2>۲. پیشنهاد زروان (The Zurvan Proposal)</h2>
-<p>
-نظریه زروان برای پاسخ به این پرسش‌ها، یک موجودیت واحد را به عنوان پایه و اساس کل هستی معرفی می‌کند.
-</p>
-<h3>زروان، یک نوسانگر بنیادین</h3>
-<p>
-تصور کنید یک "ذره" یا نوسانگر واحد در هر لحظه، در یک نقطه از یک فضای چندبعدی بالاتر وجود دارد. این موجودیت (زروان)، با سرعتی فوق‌العاده (در حد زمان پلانک) بین تمام نقاط ممکن در جهان ما حرکت کرده و در هر نقطه نوسان می‌کند.
-</p>
-<h3>تمام پدیده‌های فیزیکی، حاصل این نوسان هستند:</h3>
-<ul>
-<li><b>فضا و زمان:</b> این‌ها بافت‌های پیوسته و بنیادین نیستند، بلکه توهمی پدیدار شده از <b>مسیر حرکت و فرکانس نوسان</b> زروان هستند.</li>
-<li><b>ماده:</b> هر "ریسمان" یا ذره بنیادی، در واقع یک <b>نقطه پایدار در الگوی نوسانی</b> زروان است.</li>
-<li><b>نیروها:</b> چهار نیروی بنیادی، مظاهر مختلف <b>رفتار نوسانی زروان در فواصل متفاوت</b> بین این نقاط پایدار (ریسمان‌ها) هستند.</li>
-<li><b>عدم قطعیت کوانتومی:</b> این یک اصل بنیادین نیست، بلکه یک <b>اثر آماری</b> است که به دلیل عدم توانایی ما در ردیابی مسیر دقیق و فوق سریع زروان پدیدار می‌شود (مشابه رابطه بین دمای گاز و حرکت جبری مولکول‌های آن).</li>
-</ul>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/17326887/223708316-01a2f9a7-932b-426c-8463-c7e6c921508a.gif" alt="مدل مفهومی از نوسان زروان و ایجاد ریسمان" width="550"/>
-<br>
-<i>مدل مفهومی از نوسان زروان و ایجاد "ریسمان" به عنوان یک الگوی پایدار.</i>
-</p>
-<h2>۳. نقشه راه و چالش‌های پیش‌رو (Roadmap)</h2>
-<p>
-این چارچوب در مراحل اولیه توسعه قرار دارد. مهم‌ترین گام‌های بعدی عبارتند از:
-</p>
-<ul>
-<li><b>[ ] فاز ۱: فرمول‌بندی ریاضی:</b>
-<ul>
-<li>توسعه یک مدل ریاضی دقیق برای توصیف فضای نوسان زروان.</li>
-<li>استخراج معادلات حرکت برای زروان.</li>
-<li>مدلسازی ریاضی "ریسمان" به عنوان یک حالت پایدار در میدان نوسانی زروان.</li>
-</ul>
-</li>
-<li><b>[ ] فاز ۲: پیامدهای نظری:</b>
-<ul>
-<li>استخراج چهار نیروی بنیادی از مدل.</li>
-<li>توضیح ریاضی پدیدار شدن عدم قطعیت کوانتومی.</li>
-<li>مدلسازی تکینگی بیگ بنگ و سیاه‌چاله‌ها.</li>
-</ul>
-</li>
-<li><b>[ ] فاز ۳: آزمون‌پذیری تجربی:</b>
-<ul>
-<li>شناسایی پیش‌بینی‌های منحصربه‌فرد نظریه که آن را از مدل استاندارد متمایز می‌کند.</li>
-<li>ارائه پیشنهاداتی برای آزمایش‌های قابل انجام (در کیهان‌شناسی یا فیزیک ذرات).</li>
-</ul>
-</li>
-</ul>
-<h2>۴. دعوت به همکاری و مشارکت (Call for Collaboration)</h2>
-<p>
-این پروژه، یک تلاش بین‌رشته‌ای است و موفقیت آن در گرو همکاری متخصصان از حوزه‌های مختلف است. ما صمیمانه از جامعه علمی، به ویژه فیزیکدانان نظری، ریاضیدانان و فیلسوفان علم، دعوت می‌کنیم تا در این سفر علمی به ما بپیوندند.
-</p>
-<h3>چگونه می‌توانید مشارکت کنید؟</h3>
-<ul>
-<li><b>بحث و نقد علمی:</b> بهترین مکان برای به چالش کشیدن، نقد کردن و بحث در مورد این ایده، بخش <b><a href="https://github.com/naserahani/Zurvan-Theory/issues">Issues</a></b> این مخزن است. لطفاً بزرگترین اشکالات، سوالات یا ایده‌های خود را در آنجا مطرح کنید.</li>
-<li><b>مشارکت در توسعه:</b> اگر به همکاری در توسعه مدل ریاضی یا جنبه‌های دیگر علاقه‌مندید، لطفاً یک <code>issue</code> جدید باز کرده و زمینه علاقه خود را مشخص کنید.</li>
-</ul>
-<blockquote>
-<b>هدف ما، نه دفاع متعصبانه از یک نظریه، بلکه رسیدن به حقیقت از طریق گفتگوی علمی شفاف و نقادانه است.</b>
-</blockquote>
-<br>
-<p>
-<b>ناصر آهنی</b>
-<br>
-<i>محقق مستقل </i>
-<br>
-<i>تمرکز پژوهشی: فیزیک بنیادی و مبانی فضا-زمان</i>
-</p>
-</div>
+# Zurvan Theory
+
+**Naser Ahani**
+Department of Physics, Amirkabir University of Technology, Tehran, Iran
+naser.ahani@aut.ac.ir
+
+Official repository for the Zurvan research programme: sources, figures, and numerical code for papers on emergent spacetime, holographic information, and the foundations of physics.
+
+---
+
+## The framework in brief
+
+Zurvan proposes that spacetime, matter, and forces are not primary entities but **emergent patterns** of a single underlying oscillatory entity. Two commitments follow:
+
+- **Time as rhythm, not axis.** Time is not a pre-existing dimension along which events are arranged; it is the name we give to the succession of fundamental events. Irreversibility is then structural rather than something to be explained away.
+- **Information as the bridge to observation.** The framework's contact with data runs through horizon thermodynamics and the holographic principle, which is where its quantitative predictions come from.
+
+The name is taken from the Iranian mythological figure of boundless time. The framework is a research programme in progress, not a finished theory; open problems are listed below and stated explicitly in each paper.
+
+---
+
+## Papers
+
+### Dark Energy as Inverse Holographic Information (2026) — *flagship*
+`papers/informational-lambda/`
+
+The cosmological constant problem is reformulated in informational terms via the exact identity ρ_Λ = (3/8) ρ_p / N_H, where N_H is the Bekenstein–Hawking information content of the horizon. Promoting this identity from a statement about the asymptotic horizon to a dynamical law referred to the instantaneous future event horizon yields holographic dark energy with the usually free parameter **fixed to c = 1** by the one-bit-per-4ℓ_p² normalization.
+
+The result is a prediction with **no adjustable parameters**:
+
+> **w₀ = −1/3 − (2/3)√Ω_Λ0 ≈ −0.885**
+
+compared with the DESI DR2 + CMB + PantheonPlus measurement w₀ = −0.838 ± 0.055 — agreement at roughly 0.9σ. The model also predicts a definite thawing history whose sign of evolution differs from the current CPL central fit, which makes it sharply falsifiable by forthcoming data. The paper states clearly what the framework does *not* explain: the value of Λ itself remains an input, and the explanatory burden is relocated rather than dissolved.
+
+### A Hypothesis for a Sub-Planckian Timescale (2025)
+`papers/holographic-timescale/`
+
+Derives the informational constant N_Z ≈ 3.3 × 10¹²² from the holographic entropy of the cosmic horizon and the associated timescale T_pp = T_p / N_Z. Interpretive rather than derivational: the number is the known de Sitter entropy; what the framework adds is a reading of it as a count of fundamental events per Planck time.
+
+### A Scalar–Tensor Model for Singularity Resolution (2025)
+`papers/singularity-scalar-tensor/`
+
+A scalar field non-minimally coupled to the matter Lagrangian undergoes a density-triggered phase transition, driving the total stress–energy to zero and replacing the classical singularity with a locally flat core, while reducing exactly to general relativity at low density. **Work in progress** — see `STATUS.md` in that directory for the open technical gaps; not ready for journal submission.
+
+### On the Reversibility of Time (2026)
+`papers/time-reversal-essay/`
+
+A philosophy-of-physics essay arguing that debates over time-reversal operators presuppose time as an external parameter, and examining what changes if that presupposition is dropped.
+
+---
+
+## Open problems
+
+The framework's unresolved questions, in priority order:
+
+1. **Bell's theorem.** Any claim of sub-quantum determinism must confront Bell. The route is nonlocal hidden variables, in the tradition of Bohm and 't Hooft — locality, not determinism, is what the theorem rules out.
+2. **Lorentz invariance.** A sequential process defines a preferred frame. Either macroscopic invariance must be recovered as emergent, or a suppressed violation consistent with observational bounds must be predicted.
+3. **The memory problem.** If the fundamental entity is at one location per fundamental step, what carries the state of everywhere else between visits?
+4. **The phase rule.** Deriving the Feynman weight from the underlying dynamics, rather than restating it. Until this is done, the framework's reading of the path integral remains an internal document rather than a publishable result.
+5. **Completing the singularity model.** See `papers/singularity-scalar-tensor/STATUS.md`.
+6. **Direct data fit.** Fitting the parameter-free distance–redshift relation to DESI BAO and supernova compilations.
+
+## What this framework no longer claims
+
+Earlier presentations included claims now withdrawn as incompatible with established physics or as overstated:
+
+- A distance-based mechanism for the fundamental forces — incompatible with QCD confinement and with the gauge structure of the Standard Model.
+- The elimination of quantum uncertainty as such — pending item 1 above.
+- A *solution* to the cosmological constant problem — the informational reading reformulates it.
+
+Superseded material is kept in `retired/` rather than deleted.
+
+---
+
+## Repository layout
+
+```
+papers/         sources, figures, and compiled PDFs, one directory per paper
+calculations/   numerical scripts supporting the papers
+retired/        superseded versions and withdrawn claims
+```
+
+## Citing
+
+Please cite the individual paper. Preprints are also available on ResearchGate and Zenodo.
+
+## Contact
+
+Correspondence, criticism, and collaboration are welcome: naser.ahani@aut.ac.ir
