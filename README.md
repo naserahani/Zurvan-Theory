@@ -9,7 +9,7 @@
 <p align="center">
 <a href="https://github.com/naserahani/Zurvan-Theory/issues"><b>مشارکت در بحث علمی و نقد</b></a>
 &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/naserahani/Zurvan-Theory/blob/main/Zurvan_Theory_Whitepaper_FA.pdf"><b>دانلود مقاله (PDF)</b></a>
+<a href="https://github.com/naserahani/Zurvan-Theory/blob/main/retired/Zurvan_Theory_Whitepaper_FA.pdf"><b>دانلود مقاله (PDF)</b></a>
 &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
 <a href="https://www.researchgate.net/profile/Nasser-Ahani-3"><b>پروفایل ResearchGate</b></a>
 </p>
