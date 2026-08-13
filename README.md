@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="zurvan-logo.png" alt="Zurvan Theory" width="140"/>
-</p>
-
 # Zurvan Theory
 
 **Naser Ahani**
