@@ -1,0 +1,626 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\definecolor{navyish}{rgb}{0.10,0.15,0.45}
+\usepackage[colorlinks=true,linkcolor=navyish,citecolor=navyish,urlcolor=navyish]{hyperref}
+\usepackage{natbib}
+\usepackage{microtype}
+\setlength{\parskip}{2pt}
+
+\title{\bfseries Dark Energy as Inverse Holographic Information:\\
+A Parameter-Free $w(z)$ from an Informational Reading of the Cosmological Constant}
+
+\author{Naser Ahani\\
+\small Department of Physics, Amirkabir University of Technology, Tehran, Iran\\
+\small \texttt{naser.ahani@aut.ac.ir}}
+
+\date{July 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+The cosmological constant problem is usually stated as a mismatch of some
+122 orders of magnitude between the Planck-scale vacuum energy density and the
+observed dark-energy density. Following a line of thought initiated by Banks
+and developed by Padmanabhan, we first exhibit the exact algebraic identity
+$\rho_\Lambda = \tfrac{3}{8}\,\rho_p/N_H$, where
+$N_H \equiv A_H/4\ell_p^2 \simeq 3.3\times10^{122}$ is the
+Bekenstein--Hawking information content of the de~Sitter horizon associated
+with $\Lambda$. As it stands, this identity is a reformulation, not an
+explanation: it relocates the question ``why is $\rho_\Lambda$ small?'' to
+``why does the accessible universe carry $\sim 10^{122}$ holographic degrees
+of freedom?''. The contribution of this paper is to \emph{promote} the
+identity from a kinematic statement about the asymptotic horizon to a
+dynamical law referred to the instantaneous future event horizon. The
+resulting model is shown to coincide exactly with Li's holographic dark
+energy, but with the usually free parameter fixed to $c=1$ by the
+informational normalization (one bit per $4\ell_p^2$). The model therefore
+makes a genuinely parameter-free prediction for the dark-energy equation of
+state: $w_0 = -\tfrac13 - \tfrac23\sqrt{\Omega_{\Lambda 0}} \simeq -0.885$,
+within $1\sigma$ of the DESI~DR2+CMB+PantheonPlus measurement
+$w_0 = -0.838\pm0.055$, together with a definite thawing history
+$w(z)\to -\tfrac13$ at high redshift and an asymptotic de~Sitter future.
+The predicted sign of the evolution, however, is opposite to the central
+CPL fit of DESI ($w_a>0$ here versus $w_a<0$ there), which makes the model
+sharply falsifiable by forthcoming data. We close with a methodological
+analysis of what is, and what is not, explained by informational
+reformulations of $\Lambda$, and of the epistemic step that converts an
+accounting identity into empirical physics.
+\end{abstract}
+
+\vspace{1ex}
+\noindent\textbf{Keywords:} cosmological constant problem; holographic principle;
+dark energy; equation of state; DESI; philosophy of cosmology.
+
+\section{Introduction}
+\label{sec:intro}
+
+The cosmological constant problem is the observation that the vacuum energy
+density suggested by quantum field theory with a Planck-scale cutoff exceeds
+the observed dark-energy density by roughly 122 orders of magnitude
+\citep{Weinberg1989,Martin2012}. Within $\Lambda$CDM this mismatch is treated
+as an extreme cancellation to be explained by unknown ultraviolet physics.
+
+Two developments motivate revisiting the problem from an informational
+standpoint. First, the holographic principle
+\citep{Bekenstein1973,Hawking1975,tHooft1993,Susskind1995} teaches that the
+information content of a causal region is measured by its boundary area in
+Planck units, $S = A/4\ell_p^2$; applied to cosmological horizons this
+assigns the observable universe a finite information budget of order
+$10^{122}$--$10^{123}$ \citep{Lloyd2002,EganLineweaver2010}. Banks
+\citep{Banks2000} proposed long ago that the logical order be inverted:
+$\Lambda$ is not a small energy to be explained but an \emph{input} that
+fixes the dimension of the Hilbert space of an asymptotically de~Sitter
+universe; Padmanabhan and Padmanabhan \citep{CosMIn2013,Padmanabhan2012}
+similarly argued that the numerical value of $\Lambda$ is controlled by the
+cosmic information content (``CosMIn''). Second, and quite recently, the DESI
+collaboration has reported growing evidence---at the $2.8$--$4.2\sigma$ level
+depending on the supernova compilation---that dark energy is \emph{not} a
+constant: the equation of state today satisfies $w_0 > -1$ and evolves with
+redshift \citep{DESIDR1,DESIDR2,DESIDR2ext}. If dark energy is dynamical,
+frameworks in which $\rho_\Lambda$ is tied to an evolving horizon quantity
+become natural candidates, whereas a strictly constant $\Lambda$ cannot
+accommodate the data.
+
+This paper does three things. Section~\ref{sec:identity} states the
+informational identity in its exact form and is deliberately candid about its
+epistemic status: it is an algebraic reformulation of known relations, not a
+derivation of $\Lambda$. Section~\ref{sec:promotion} performs the step that
+gives the reformulation empirical content: the identity, referred at each
+cosmic time to the instantaneous future event horizon, becomes a dynamical
+law. We show that this law is precisely Li's holographic dark energy
+\citep{CKN1999,Li2004,WangReview2017} with the normally free parameter fixed
+to $c=1$, so that the entire $w(z)$ history follows with \emph{no adjustable
+parameters} beyond $\Omega_{\Lambda 0}$. Section~\ref{sec:pred} derives the
+predictions and confronts them with DESI~DR2. Section~\ref{sec:challenges}
+collects the known difficulties of the framework, and
+Section~\ref{sec:philosophy} offers a methodological analysis of the move
+from interpretation to prediction. Throughout, $\ell_p^2=\hbar G/c^3$,
+$\rho_p = c^5/\hbar G^2$, and $\rho_\Lambda = \Lambda c^2/8\pi G$ (mass
+densities).
+
+\section{The informational identity and its epistemic status}
+\label{sec:identity}
+
+For a de~Sitter horizon of radius $R_H = \sqrt{3/\Lambda}$, the horizon area
+is $A_H = 4\pi R_H^2 = 12\pi/\Lambda$, and the Bekenstein--Hawking relation
+assigns it the dimensionless information content
+\begin{equation}
+N_H \;\equiv\; \frac{A_H}{4\ell_p^2}
+\;=\; \frac{3\pi c^3}{\Lambda \hbar G}
+\;\approx\; 3.3\times 10^{122},
+\label{eq:NH}
+\end{equation}
+where the numerical value uses $\Lambda \approx 1.09\times10^{-52}\,
+\mathrm{m^{-2}}$ from current data \citep{Planck2018,DESIDR2}. This is the
+familiar de~Sitter entropy \citep{GibbonsHawking1977}; it agrees in order of
+magnitude with Lloyd's count of the computational capacity of the universe
+($\sim 10^{120}$ elementary operations) \citep{Lloyd2002} and with the
+entropy budget of Egan and Lineweaver \citep{EganLineweaver2010}.
+
+Combining Eq.~\eqref{eq:NH} with the definitions of $\rho_p$ and
+$\rho_\Lambda$ gives the exact identity
+\begin{equation}
+\boxed{\;\rho_\Lambda \;=\; \frac{3}{8}\,\frac{\rho_p}{N_H}\;}
+\label{eq:identity}
+\end{equation}
+The famous factor $10^{-122}$ is thus, numerically, the inverse holographic
+information content of the $\Lambda$-horizon.
+
+Three remarks fix the epistemic status of Eq.~\eqref{eq:identity}.
+
+\emph{(i) It is not a derivation of $\Lambda$.} Both sides are functions of
+the same measured $\Lambda$; the relation is an algebraic identity within
+de~Sitter geometry and has, by itself, no predictive content. Any claim to
+have ``derived'' the dark-energy density from
+Eq.~\eqref{eq:identity} would be circular.
+
+\emph{(ii) It is nevertheless a nontrivial reframing.} As Banks emphasized
+\citep{Banks2000}, one may read the identity right-to-left: the small number
+is not a fine-tuned cancellation but the reciprocal of a large integer---the
+number of holographic degrees of freedom of the accessible universe. The
+explanatory burden is relocated from ultraviolet cancellation mechanisms to
+the question of why the cosmic Hilbert space has the dimension it has
+\citep{CosMIn2013}. Relocation is not resolution, but it can redirect
+research: questions about horizon information admit dynamical treatment in a
+way that questions about exact cancellation of $10^{122}$ contributions do
+not.
+
+\emph{(iii) A caveat about which horizon.} Today's universe is not exactly
+de~Sitter ($\Omega_{\Lambda 0}\simeq 0.7$); the Hubble radius $c/H_0$ and
+the asymptotic radius $\sqrt{3/\Lambda}$ differ by a factor
+$\sqrt{\Omega_{\Lambda 0}}$. Equation~\eqref{eq:identity} strictly refers to
+the \emph{final} de~Sitter horizon determined by $\Lambda$ itself, which is
+the formal root of the circularity noted in (i). The next section removes
+this circularity by referring the information content to a horizon defined by
+the expansion history rather than by $\Lambda$.
+
+\section{From interpretation to dynamics: the promotion postulate}
+\label{sec:promotion}
+
+The step that converts Eq.~\eqref{eq:identity} from an accounting identity
+into physics is the following postulate.
+
+\medskip
+\noindent\textbf{Postulate (informational dark energy).}
+\emph{At every cosmic time $t$, the dark-energy density equals
+$\tfrac{3}{8}\rho_p/N_H(t)$, where $N_H(t)=A_h(t)/4\ell_p^2$ is the
+Bekenstein--Hawking information content of the instantaneous future event
+horizon}
+\begin{equation}
+R_h(t) \;=\; a(t)\int_t^{\infty}\frac{c\,dt'}{a(t')} .
+\label{eq:Rh}
+\end{equation}
+
+\medskip
+\noindent
+Substituting $N_H(t)=\pi R_h^2/\ell_p^2$ into the postulate gives
+\begin{equation}
+\rho_\Lambda(t) \;=\; \frac{3}{8}\,\frac{\rho_p\,\ell_p^2}{\pi R_h^2(t)}
+\;=\; \frac{3c^2}{8\pi G}\,\frac{1}{R_h^2(t)},
+\label{eq:rhodyn}
+\end{equation}
+using $\rho_p\ell_p^2 = c^2/G$. Equation~\eqref{eq:rhodyn} is recognizable:
+it is exactly the holographic dark energy (HDE) density of Cohen, Kaplan and
+Nelson \citep{CKN1999} with Li's choice of the future event horizon as the
+infrared cutoff \citep{Li2004},
+$\rho_{\rm HDE} = 3c_{\rm H}^2 M_p^2/R_h^2$
+(with $M_p^{-2}=8\pi G$, $\hbar=c=1$), \emph{with the usually free
+dimensionless parameter fixed to} $c_{\rm H}=1$.
+
+This identification cuts both ways and both directions matter. In one
+direction, it is a candor requirement: the dynamics explored below is not
+new---HDE has a twenty-year literature, including extensive observational
+fits \citep{Li2004,HuangLi2004,WangReview2017}. In the other direction, the
+informational reading adds something HDE by itself lacks: a \emph{reason} for
+the normalization. In standard HDE, $c_{\rm H}$ is a free parameter fitted
+to data (fits typically prefer $c_{\rm H}\lesssim 1$
+\citep{HuangLi2004,WangReview2017}). Here $c_{\rm H}=1$ is forced by the
+Bekenstein--Hawking count of exactly one bit per $4\ell_p^2$ of horizon
+area---the same factor of $1/4$ that black-hole thermodynamics fixes
+\citep{Bekenstein1973,Hawking1975}. The model therefore has \emph{zero}
+adjustable parameters in the dark sector: given $\Omega_{\Lambda 0}$, the
+entire expansion history is determined. From a methodological point of view
+(Section~\ref{sec:philosophy}) this maximal rigidity is the model's chief
+virtue, since it makes the framework sharply falsifiable rather than
+flexibly accommodating.
+
+For a spatially flat universe containing matter and the component
+\eqref{eq:rhodyn}, defining $\Omega_\Lambda = \rho_\Lambda/(3M_p^2H^2)$ and
+$x=\ln a$, the standard HDE derivation \citep{Li2004} yields the autonomous
+equation
+\begin{equation}
+\frac{d\Omega_\Lambda}{dx}
+= \Omega_\Lambda\,(1-\Omega_\Lambda)\left(1 + 2\sqrt{\Omega_\Lambda}\right),
+\label{eq:ode}
+\end{equation}
+and the equation of state
+\begin{equation}
+w(z) \;=\; -\frac13 \;-\; \frac{2}{3}\sqrt{\Omega_\Lambda(z)} .
+\label{eq:wz}
+\end{equation}
+A self-contained derivation of Eqs.~\eqref{eq:ode}--\eqref{eq:wz} is given in
+Appendix~\ref{app:derivation}. Because Eq.~\eqref{eq:wz} confines $w$ to the
+open interval $(-1,-\tfrac13)$ at all finite times, the model structurally
+forbids both a constant $w=-1$ and any phantom regime.
+
+\section{Predictions and confrontation with DESI DR2}
+\label{sec:pred}
+
+\subsection{Parameter-free numbers}
+
+Evaluating Eq.~\eqref{eq:wz} today with $\Omega_{\Lambda 0}=0.685$
+\citep{Planck2018} gives the headline prediction
+\begin{equation}
+w_0 \;=\; -\frac13 - \frac23\sqrt{0.685} \;=\; -0.885 .
+\label{eq:w0}
+\end{equation}
+No parameter has been tuned to obtain this number. For comparison, the DESI
+DR2 combination BAO+CMB+PantheonPlus yields $w_0 = -0.838 \pm 0.055$
+\citep{DESIDR2}; the prediction \eqref{eq:w0} sits within $0.9\sigma$ of the
+measured central value. The same combination with the DES-Y5 supernova
+sample gives $w_0 = -0.752 \pm 0.057$, about $2.3\sigma$ from \eqref{eq:w0}.
+
+Integrating Eq.~\eqref{eq:ode} from $\Omega_{\Lambda0}=0.685$ gives the full
+history (Table~\ref{tab:wz}, Fig.~\ref{fig:wz}). The model is a
+\emph{thawing-to-de-Sitter} scenario: $w \to -\tfrac13$ at high redshift,
+$w_0=-0.885$ today, and $w\to -1$, $\Omega_\Lambda \to 1$ in the far future.
+There is no phantom regime and no big rip; the future is asymptotically
+de~Sitter, closing the loop with the static identity of
+Section~\ref{sec:identity}, which becomes exact in that limit. The early
+dark-energy fraction is negligible where it must be: extrapolating the
+matter-plus-dark-energy system (radiation neglected, so the number is
+indicative only) gives $\Omega_\Lambda(z{=}1100) \sim 2\times10^{-4}$,
+far below current CMB bounds on early dark energy, which sit at the percent
+level.
+
+\begin{table}[t]
+\centering
+\caption{Predicted history of the informational dark-energy model
+($\Omega_{\Lambda0}=0.685$; no adjustable parameters).}
+\label{tab:wz}
+\begin{tabular}{ccc}
+\toprule
+$z$ & $\Omega_\Lambda(z)$ & $w(z)$\\
+\midrule
+0.00 & 0.685 & $-0.885$\\
+0.25 & 0.551 & $-0.828$\\
+0.50 & 0.441 & $-0.776$\\
+1.00 & 0.295 & $-0.696$\\
+2.00 & 0.160 & $-0.600$\\
+3.00 & 0.104 & $-0.549$\\
+10.0 & 0.026 & $-0.441$\\
+$\infty$ & 0 & $-1/3$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{wz_figure.pdf}
+\caption{Left: equation of state $w(z)$ of the informational model
+(solid), compared with the CPL best fits of DESI DR2 combined with CMB and
+two supernova samples \citep{DESIDR2}, and with $\Lambda$CDM. Right: the
+predicted dark-energy fraction $\Omega_\Lambda(z)$. The model has no free
+parameters once $\Omega_{\Lambda0}$ is fixed.}
+\label{fig:wz}
+\end{figure}
+
+\subsection{Agreement, tension, and falsifiability}
+\label{sec:tension}
+
+The confrontation with DESI must be reported symmetrically.
+
+\emph{Points of agreement.} The model predicts, unavoidably, that (a) dark
+energy is dynamical, so that $\Lambda$CDM is excluded within the framework;
+(b) $w_0 > -1$ today, i.e.\ quintessence-like present behavior; and (c) a
+present value $w_0=-0.885$ within $1\sigma$ of the
+DESI+CMB+PantheonPlus measurement. Points (a) and (b) are precisely the two
+qualitative headlines of the DESI results \citep{DESIDR1,DESIDR2}. It is
+worth emphasizing how nontrivial (c) is: a formula with no tunable constants,
+whose only inputs are the Bekenstein--Hawking factor $1/4$ and
+$\Omega_{\Lambda 0}$, lands within one standard deviation of the measured
+$w_0$.
+
+\emph{Point of tension.} Projected onto the CPL parametrization
+$w(a)=w_0+w_a(1-a)$ over $0<z<1$, the model gives an effective
+$w_a \simeq +0.4$ (locally $+0.23$ at $z=0$): $w$ \emph{increases} into the
+past toward $-\tfrac13$. The DESI CPL fits prefer the opposite sign,
+$w_a \simeq -0.6$ to $-1$, i.e.\ a phantom regime $w<-1$ at $z\gtrsim0.5$
+\citep{DESIDR2}. Taken at face value this is a $\sim4\sigma$ tension in
+$w_a$ (a face-value statement only, since the DESI $w_0$--$w_a$ posteriors
+are strongly correlated and a proper comparison must be made against the
+joint contour). Three qualifications are in order. First, the CPL fit is a two-parameter
+extrapolation, and its high-redshift behavior is dominated by the
+parametrization rather than by data; model-independent reconstructions of
+$w(z)$ carry large uncertainties beyond $z\sim0.7$, and the literature
+cautions explicitly against over-reading CPL extrapolations
+\citep{Nesseris2025,DESIDR2ext}. Second, a proper test of the present model
+is a direct fit of its distance--redshift relation to the BAO and supernova
+data, not a comparison of CPL coefficients; this fit (which involves no free
+dark-sector parameters, hence no ability to hide) is the natural next step
+and is left for dedicated work. Third, precisely because nothing can be
+adjusted, the model is \emph{maximally exposed}: if forthcoming DESI and
+supernova data confirm a genuine phantom crossing at $z\approx0.5$, the model
+is refuted outright. We regard this exposure as a feature. A framework
+born as an interpretation has become an empirical claim with a definite
+kill condition.
+
+\section{Known challenges}
+\label{sec:challenges}
+
+Honesty requires listing the difficulties this framework inherits and adds.
+
+\emph{The future event horizon and causality.} The cutoff \eqref{eq:Rh}
+refers to the entire future expansion history, so the present dark-energy
+density ``knows about'' the future. This teleological flavor is a standing
+objection to event-horizon HDE \citep{Cai2007,WangReview2017}. Two readings
+are available: as a genuine causality violation (fatal), or as a global
+self-consistency condition---the universe's history solves a boundary-value
+problem rather than an initial-value problem, a reading with precedents in
+action-at-a-distance electrodynamics and in global formulations of quantum
+cosmology. Within the informational framework the second reading is at least
+natural: horizon information is a global, not local, bookkeeping. But we
+flag it clearly as the framework's deepest conceptual liability.
+
+\emph{Why one bit per $4\ell_p^2$ of the cosmological horizon?} The
+Bekenstein--Hawking normalization is established for black-hole horizons and
+strongly motivated for de~Sitter space \citep{GibbonsHawking1977}; its
+application to the time-dependent event horizon of an FRW universe is an
+extrapolation. The Cohen--Kaplan--Nelson bound \citep{CKN1999} motivates
+$\rho_\Lambda \lesssim M_p^2/L^2$ as an inequality; promoting it to an
+equality with coefficient fixed by horizon thermodynamics is the physical
+content of our postulate, and it could be wrong in either the coefficient or
+the choice of surface. (Choosing the Hubble radius instead is known to fail
+to produce acceleration \citep{Hsu2004}, which is itself evidence that the
+choice of surface carries physical content.)
+
+\emph{Relation to observationally preferred HDE.} Fits of standard HDE with
+$c_{\rm H}$ free tend to prefer $c_{\rm H}<1$
+\citep{HuangLi2004,WangReview2017}, which entails phantom behavior in the
+future. Our normalization forbids this region. Should data ultimately
+demand $c_{\rm H}<1$, the informational normalization---not merely the
+model---would be falsified.
+
+\emph{What $N_H$ counts.} $N_H$ is a capacity (a bound on accessible degrees
+of freedom), not a count of particles or bits ``in use''. The framework does
+not yet supply a microscopic account of what carries the horizon
+information, nor of how matter degrees of freedom are subsumed in it. Here
+the informational reading connects naturally to broader emergent-gravity
+programs \citep{Padmanabhan2010,Verlinde2011}, but the connection remains
+programmatic.
+
+\section{Methodological analysis: what has and has not been explained}
+\label{sec:philosophy}
+
+The trajectory of this paper---identity, reinterpretation, promotion,
+prediction---is itself of philosophical interest, and we make the structure
+explicit.
+
+\emph{Interpretations are cheap; rigid interpretations are not.} The bare
+identity \eqref{eq:identity} has no empirical content: it cannot conflict
+with any observation, because both sides co-vary with the measured
+$\Lambda$. In Popperian terms it forbids nothing. What confers empirical
+content is the promotion postulate of Section~\ref{sec:promotion}, which
+extends the identity counterfactually---to all times, via a horizon defined
+independently of $\Lambda$. The promoted theory forbids a great deal: it
+forbids a constant $w=-1$ (the de~Sitter value is attained only
+asymptotically), forbids phantom crossing, forbids any $w_0$ outside a
+narrow band around $-0.89$, and fixes the full function $w(z)$. The epistemic
+lesson generalizes: an interpretation earns scientific standing exactly when
+it is rigid enough to be killed. The absence of adjustable parameters, often
+presented apologetically, is on this view the model's principal
+epistemological asset.
+
+\emph{Relocation of explanatory burden.} Even if the model survives
+observation, one should be precise about what has been explained. The value
+of $\Lambda$ (equivalently $N_H$, equivalently $\Omega_{\Lambda0}$ at our
+epoch) remains an unexplained input, exactly as in Banks's proposal
+\citep{Banks2000} and in CosMIn \citep{CosMIn2013}. What the framework
+explains, conditionally, is the \emph{structure} of dark energy: why its
+density is tied to the horizon scale, why it evolves, and with what history.
+The fine-tuning question is transformed, not dissolved: ``why is
+$\rho_\Lambda$ small?'' becomes ``why is the cosmic information capacity
+large?''---a question that at least admits dynamical treatment, since
+horizon information grows with cosmic evolution and its magnitude is tied to
+the age and content of the universe \citep{Lloyd2002,EganLineweaver2010}.
+
+\emph{The Ptolemaic risk, faced honestly.} A skeptic may object that
+identifying $10^{122}$ with a horizon-bit count is numerology---epicycles in
+informational dress. The reply is the one physics has always given: the
+difference between numerology and physics is a differential prediction. The
+static identity of Section~\ref{sec:identity} cannot be distinguished from
+coincidence; the dynamical model of Section~\ref{sec:promotion} can, and
+DESI-class data are already adjudicating. Whichever way that adjudication
+goes, the methodological point stands: informational reformulations of
+$\Lambda$ must be pushed to the point of rigidity at which they expose
+themselves to data, or they remain interpretive commentary.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+We have separated, deliberately, three layers that are often run together in
+holographic discussions of the cosmological constant: an exact but
+non-predictive identity ($\rho_\Lambda = \tfrac38 \rho_p/N_H$); an
+interpretive inversion due to Banks and Padmanabhan (read $\Lambda$ as fixing
+the cosmic information capacity, not as a fine-tuned energy); and a
+dynamical promotion (apply the identity at every epoch to the instantaneous
+event horizon). The third layer is equivalent to holographic dark energy
+with its free parameter frozen at $c_{\rm H}=1$ by the Bekenstein--Hawking
+normalization, and therefore predicts, with no tunable constants,
+$w_0=-0.885$---within $1\sigma$ of DESI DR2+CMB+PantheonPlus---together with
+a definite thawing history whose past behavior ($w_a>0$) differs in sign
+from the current CPL central fit and will be cleanly tested by forthcoming
+data. A direct, parameter-free fit of the model's distance--redshift
+relation to DESI BAO and supernova compilations is the immediate next step.
+
+\paragraph{Acknowledgments.} The author thanks the instructors of the
+philosophy-of-physics seminars at Sharif University of Technology for
+discussions that shaped Section~\ref{sec:philosophy}.
+
+\paragraph{Data and code availability.} No new observational data were
+produced. The short numerical script that integrates Eq.~\eqref{eq:ode} and
+generates Table~\ref{tab:wz} and Fig.~\ref{fig:wz} is available from the
+author on request.
+
+\appendix
+
+\section{Derivation of the autonomous equation and the equation of state}
+\label{app:derivation}
+
+For completeness we derive Eqs.~\eqref{eq:ode}--\eqref{eq:wz} from the
+postulate, following \citet{Li2004}. Units $\hbar=c=1$,
+$M_p^{-2}=8\pi G$; flat FRW with matter ($\rho_m \propto a^{-3}$) and the
+informational component $\rho_\Lambda = 3M_p^2/R_h^2$
+(Eq.~\eqref{eq:rhodyn} with $c_{\rm H}=1$).
+
+From the definition \eqref{eq:Rh} of the future event horizon,
+\begin{equation}
+\dot R_h \;=\; H R_h - 1 .
+\label{eq:Rhdot}
+\end{equation}
+The Friedmann equation $3M_p^2H^2 = \rho_m + \rho_\Lambda$ and the
+definition $\Omega_\Lambda \equiv \rho_\Lambda/3M_p^2H^2$ give
+\begin{equation}
+\Omega_\Lambda = \frac{1}{(H R_h)^2}
+\qquad\Longrightarrow\qquad
+H R_h = \Omega_\Lambda^{-1/2}.
+\label{eq:HRh}
+\end{equation}
+With $x \equiv \ln a$ and $'\equiv d/dx = H^{-1}d/dt$,
+Eq.~\eqref{eq:Rhdot} gives
+\begin{equation}
+\frac{R_h'}{R_h} \;=\; 1 - \frac{1}{HR_h} \;=\; 1 - \sqrt{\Omega_\Lambda}.
+\label{eq:Rhprime}
+\end{equation}
+Differentiating $\rho_\Lambda = 3M_p^2/R_h^2$ and comparing with the
+continuity equation $\rho_\Lambda' = -3(1+w)\rho_\Lambda$ yields the
+equation of state directly:
+\begin{equation}
+\rho_\Lambda' = -2\rho_\Lambda\frac{R_h'}{R_h}
+= -2\rho_\Lambda\left(1-\sqrt{\Omega_\Lambda}\right)
+\;\;\Longrightarrow\;\;
+w = -\frac13 - \frac23\sqrt{\Omega_\Lambda},
+\end{equation}
+which is Eq.~\eqref{eq:wz}. Since $0<\Omega_\Lambda<1$ at all finite times,
+$w$ is confined to $(-1,-\tfrac13)$.
+
+For the autonomous equation, differentiate the logarithm of
+Eq.~\eqref{eq:HRh},
+$\Omega_\Lambda'/\Omega_\Lambda = -2\left(H'/H + R_h'/R_h\right)$.
+Differentiating the Friedmann equation and using
+$\rho_m' = -3\rho_m$ gives
+\begin{equation}
+\frac{H'}{H} = -\frac32\left(1-\Omega_\Lambda\right)
+- \Omega_\Lambda\left(1-\sqrt{\Omega_\Lambda}\right).
+\end{equation}
+Combining the last three relations,
+\begin{equation}
+\frac{\Omega_\Lambda'}{\Omega_\Lambda}
+= 3(1-\Omega_\Lambda) + 2\Omega_\Lambda(1-\sqrt{\Omega_\Lambda})
+- 2(1-\sqrt{\Omega_\Lambda})
+= (1-\Omega_\Lambda)\left(1+2\sqrt{\Omega_\Lambda}\right),
+\end{equation}
+which is Eq.~\eqref{eq:ode}. The fixed points are
+$\Omega_\Lambda=0$ (unstable; matter domination, $w\to-\tfrac13$) and
+$\Omega_\Lambda=1$ (attractor; de~Sitter, $w\to-1$), confirming the
+thawing-to-de-Sitter history quoted in the text.
+
+\begin{thebibliography}{99}
+\small
+
+\bibitem[Weinberg(1989)]{Weinberg1989}
+S.~Weinberg, ``The cosmological constant problem,''
+\emph{Rev. Mod. Phys.} \textbf{61}, 1 (1989).
+
+\bibitem[Martin(2012)]{Martin2012}
+J.~Martin, ``Everything you always wanted to know about the cosmological
+constant problem (but were afraid to ask),''
+\emph{C. R. Physique} \textbf{13}, 566 (2012), arXiv:1205.3365.
+
+\bibitem[Bekenstein(1973)]{Bekenstein1973}
+J.~D. Bekenstein, ``Black holes and entropy,''
+\emph{Phys. Rev. D} \textbf{7}, 2333 (1973).
+
+\bibitem[Hawking(1975)]{Hawking1975}
+S.~W. Hawking, ``Particle creation by black holes,''
+\emph{Commun. Math. Phys.} \textbf{43}, 199 (1975).
+
+\bibitem['t Hooft(1993)]{tHooft1993}
+G.~'t~Hooft, ``Dimensional reduction in quantum gravity,''
+arXiv:gr-qc/9310026.
+
+\bibitem[Susskind(1995)]{Susskind1995}
+L.~Susskind, ``The world as a hologram,''
+\emph{J. Math. Phys.} \textbf{36}, 6377 (1995), arXiv:hep-th/9409089.
+
+\bibitem[Gibbons and Hawking(1977)]{GibbonsHawking1977}
+G.~W. Gibbons and S.~W. Hawking, ``Cosmological event horizons,
+thermodynamics, and particle creation,''
+\emph{Phys. Rev. D} \textbf{15}, 2738 (1977).
+
+\bibitem[Banks(2000)]{Banks2000}
+T.~Banks, ``Cosmological breaking of supersymmetry?,''
+\emph{Int. J. Mod. Phys. A} \textbf{16}, 910 (2001), arXiv:hep-th/0007146.
+
+\bibitem[Padmanabhan and Padmanabhan(2013)]{CosMIn2013}
+T.~Padmanabhan and H.~Padmanabhan, ``CosMIn: The solution to the
+cosmological constant problem,''
+\emph{Int. J. Mod. Phys. D} \textbf{22}, 1342001 (2013), arXiv:1302.3226.
+
+\bibitem[Padmanabhan(2012)]{Padmanabhan2012}
+T.~Padmanabhan, ``The physical principle that determines the value of the
+cosmological constant,'' arXiv:1210.4174.
+
+\bibitem[Padmanabhan(2010)]{Padmanabhan2010}
+T.~Padmanabhan, ``Thermodynamical aspects of gravity: new insights,''
+\emph{Rep. Prog. Phys.} \textbf{73}, 046901 (2010), arXiv:0911.5004.
+
+\bibitem[Verlinde(2011)]{Verlinde2011}
+E.~Verlinde, ``On the origin of gravity and the laws of Newton,''
+\emph{JHEP} \textbf{04}, 029 (2011), arXiv:1001.0785.
+
+\bibitem[Lloyd(2002)]{Lloyd2002}
+S.~Lloyd, ``Computational capacity of the universe,''
+\emph{Phys. Rev. Lett.} \textbf{88}, 237901 (2002), arXiv:quant-ph/0110141.
+
+\bibitem[Egan and Lineweaver(2010)]{EganLineweaver2010}
+C.~A. Egan and C.~H. Lineweaver, ``A larger estimate of the entropy of the
+universe,'' \emph{Astrophys. J.} \textbf{710}, 1825 (2010), arXiv:0909.3983.
+
+\bibitem[Cohen et al.(1999)]{CKN1999}
+A.~G. Cohen, D.~B. Kaplan, and A.~E. Nelson, ``Effective field theory, black
+holes, and the cosmological constant,''
+\emph{Phys. Rev. Lett.} \textbf{82}, 4971 (1999), arXiv:hep-th/9803132.
+
+\bibitem[Li(2004)]{Li2004}
+M.~Li, ``A model of holographic dark energy,''
+\emph{Phys. Lett. B} \textbf{603}, 1 (2004), arXiv:hep-th/0403127.
+
+\bibitem[Huang and Li(2004)]{HuangLi2004}
+Q.-G. Huang and M.~Li, ``The holographic dark energy in a non-flat
+universe,'' \emph{JCAP} \textbf{08}, 013 (2004), arXiv:astro-ph/0404229.
+
+\bibitem[Wang et al.(2017)]{WangReview2017}
+S.~Wang, Y.~Wang, and M.~Li, ``Holographic dark energy,''
+\emph{Phys. Rept.} \textbf{696}, 1 (2017), arXiv:1612.00345.
+
+\bibitem[Cai(2007)]{Cai2007}
+R.-G. Cai, ``A dark energy model characterized by the age of the universe,''
+\emph{Phys. Lett. B} \textbf{657}, 228 (2007), arXiv:0707.4049.
+
+\bibitem[Hsu(2004)]{Hsu2004}
+S.~D.~H. Hsu, ``Entropy bounds and dark energy,''
+\emph{Phys. Lett. B} \textbf{594}, 13 (2004), arXiv:hep-th/0403052.
+
+\bibitem[DESI Collaboration(2024)]{DESIDR1}
+DESI Collaboration, ``DESI 2024 VI: Cosmological constraints from the
+measurements of baryon acoustic oscillations,''
+\emph{JCAP} \textbf{02}, 021 (2025), arXiv:2404.03002.
+
+\bibitem[DESI Collaboration(2025)]{DESIDR2}
+DESI Collaboration (M.~Abdul Karim \emph{et al.}), ``DESI DR2 Results II:
+Measurements of baryon acoustic oscillations and cosmological constraints,''
+arXiv:2503.14738.
+
+\bibitem[Lodha et al.(2025)]{DESIDR2ext}
+K.~Lodha \emph{et al.} (DESI), ``Extended dark energy analysis using DESI DR2
+BAO measurements,'' arXiv:2503.14743.
+
+\bibitem[Nesseris et al.(2025)]{Nesseris2025}
+S.~Nesseris, Y.~Akrami, and G.~D. Starkman, ``To CPL, or not to CPL? What we
+have not learned about the dark energy equation of state,''
+arXiv:2503.22529.
+
+\bibitem[Planck Collaboration(2020)]{Planck2018}
+Planck Collaboration, ``Planck 2018 results. VI. Cosmological parameters,''
+\emph{Astron. Astrophys.} \textbf{641}, A6 (2020), arXiv:1807.06209.
+
+\end{thebibliography}
+
+\end{document}
