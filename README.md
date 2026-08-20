@@ -32,6 +32,8 @@ The result is a prediction with **no adjustable parameters**:
 
 Evaluated with the Planck Ω_Λ0 = 0.685 this gives w₀ ≈ −0.885. A direct fit of the model to the DESI DR2 BAO distance ratios reproduces the data as well as flat ΛCDM (Δχ² = 0.07 with the same number of parameters); see `calculations/p6-desi-fit/`. The model also predicts a definite thawing history whose sign of evolution differs from the current CPL central fit, which makes it sharply falsifiable by forthcoming data. The paper states clearly what the framework does *not* explain: the value of Λ itself remains an input, and the explanatory burden is relocated rather than dissolved.
 
+**Direct fit to DESI DR2 BAO.** The model has been fitted directly to the thirteen independent DESI DR2 BAO distance ratios. It reproduces the data as well as flat ΛCDM (Δχ² = 0.07 with the same number of parameters), and the holographic parameter c_H = 1 lies 0.46σ from the value the data alone prefer. Code and figure: `calculations/p6-desi-fit/`.
+
 ### A Hypothesis for a Sub-Planckian Timescale (2025)
 `papers/holographic-timescale/`
 
@@ -58,7 +60,6 @@ The framework's unresolved questions, in priority order:
 3. **The memory problem.** If the fundamental entity is at one location per fundamental step, what carries the state of everywhere else between visits?
 4. **The phase rule.** Deriving the Feynman weight from the underlying dynamics, rather than restating it. Until this is done, the framework's reading of the path integral remains an internal document rather than a publishable result.
 5. **Completing the singularity model.** See `papers/singularity-scalar-tensor/STATUS.md`.
-6. **Direct data fit.** Fitting the parameter-free distance–redshift relation to DESI BAO and supernova compilations.
 
 ## What this framework no longer claims
 
