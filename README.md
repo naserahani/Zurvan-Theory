@@ -30,7 +30,7 @@ The result is a prediction with **no adjustable parameters**:
 
 > **w₀ = −1/3 − (2/3)√Ω_Λ0 ≈ −0.885**
 
-compared with the DESI DR2 + CMB + PantheonPlus measurement w₀ = −0.838 ± 0.055 — agreement at roughly 0.9σ. The model also predicts a definite thawing history whose sign of evolution differs from the current CPL central fit, which makes it sharply falsifiable by forthcoming data. The paper states clearly what the framework does *not* explain: the value of Λ itself remains an input, and the explanatory burden is relocated rather than dissolved.
+Evaluated with the Planck Ω_Λ0 = 0.685 this gives w₀ ≈ −0.885. A direct fit of the model to the DESI DR2 BAO distance ratios reproduces the data as well as flat ΛCDM (Δχ² = 0.07 with the same number of parameters); see `calculations/p6-desi-fit/`. The model also predicts a definite thawing history whose sign of evolution differs from the current CPL central fit, which makes it sharply falsifiable by forthcoming data. The paper states clearly what the framework does *not* explain: the value of Λ itself remains an input, and the explanatory burden is relocated rather than dissolved.
 
 ### A Hypothesis for a Sub-Planckian Timescale (2025)
 `papers/holographic-timescale/`
