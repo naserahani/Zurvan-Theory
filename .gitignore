@@ -89,6 +89,9 @@ coverage.xml
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
+# ---------- داده‌های شخص ثالث (دانلودشونده، کامیت نمی‌شوند) ----------
+calculations/**/pantheon/
+
 # ---------- خروجی‌های محاسباتی حجیم ----------
 calculations/**/output/
 calculations/**/cache/
