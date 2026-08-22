@@ -57,7 +57,8 @@ s = solve_ivp(rhs, (0.0, np.log(1.0 / 4.0)), [OL0], rtol=1e-12, atol=1e-15,
 wg = np.array([w(float(s.sol(np.log(1.0 / (1.0 + z)))[0])) for z in zg])
 
 fig, ax = plt.subplots(figsize=(6.4, 4.0))
-ax.plot(zg, wg, lw=2.2, color="#b5533c", label=r"$c_H=1$")
+ax.plot(zg, wg, lw=2.2, color="#b5533c",
+        label=r"$c_H=1$:  $w=-\frac{1}{3}-\frac{2}{3}\sqrt{\Omega_\Lambda(z)}$")
 ax.axhline(-1, color="0.35", lw=1.4, ls="--", label=r"$\Lambda$CDM")
 ax.plot(zg, -0.42 - 1.75 * zg / (1 + zg), lw=1.5, color="#4a7c59", ls=":",
         label=r"DESI CPL fit ($w_0=-0.42,\ w_a=-1.75$)")
