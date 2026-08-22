@@ -30,9 +30,11 @@ The result is a prediction with no free dark-energy parameter — one fewer than
 
 > **w₀ = −1/3 − (2/3)√Ω_Λ0 ≈ −0.885**
 
-Evaluated with the Planck Ω_Λ0 = 0.685 this gives w₀ ≈ −0.885. A direct fit of the model to the DESI DR2 BAO distance ratios reproduces the data as well as flat ΛCDM (Δχ² = 0.07 with the same number of parameters); see `calculations/p6-desi-fit/`. The model also predicts a definite thawing history whose sign of evolution differs from the current CPL central fit, which makes it sharply falsifiable by forthcoming data. The paper states clearly what the framework does *not* explain: the value of Λ itself remains an input, and the explanatory burden is relocated rather than dissolved.
+Evaluated with the Planck Ω_Λ0 = 0.685 this gives w₀ ≈ −0.885. The model also predicts a definite thawing history whose sign of evolution differs from the current CPL central fit, which makes it sharply falsifiable by forthcoming data. The paper states clearly what the framework does *not* explain: the value of Λ itself remains an input, and the explanatory burden is relocated rather than dissolved.
 
 **Direct fit to DESI DR2 BAO.** The model has been fitted directly to the thirteen independent DESI DR2 BAO distance ratios. It reproduces the data as well as flat ΛCDM (Δχ² = 0.07 with the same number of parameters), and the holographic parameter c_H = 1 lies 0.46σ from the value the data alone prefer. Code and figure: `calculations/p6-desi-fit/`.
+
+Fitted to DESI DR2 BAO and to Pantheon+ separately, the model gives the same Ω_m0 from both (0.2717 and 0.2722), where flat ΛCDM shows a 1.75σ difference between them. On the combined data the model is favoured by Δχ² = −3.45 at equal parameter count. It is, however, in serious tension with the CMB-calibrated physical matter density — see `calculations/p6-desi-fit/`.
 
 ### A Hypothesis for a Sub-Planckian Timescale (2025)
 `papers/holographic-timescale/`
