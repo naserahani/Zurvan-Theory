@@ -26,7 +26,7 @@ The name is taken from the Iranian mythological figure of boundless time. The fr
 
 The cosmological constant problem is reformulated in informational terms via the exact identity ρ_Λ = (3/8) ρ_p / N_H, where N_H is the Bekenstein–Hawking information content of the horizon. Promoting this identity from a statement about the asymptotic horizon to a dynamical law referred to the instantaneous future event horizon yields holographic dark energy with the usually free parameter **fixed to c = 1** by the one-bit-per-4ℓ_p² normalization.
 
-The result is a prediction with **no adjustable parameters**:
+The result is a prediction with no free dark-energy parameter — one fewer than standard holographic dark energy, and the same background parameter count as flat ΛCDM:
 
 > **w₀ = −1/3 − (2/3)√Ω_Λ0 ≈ −0.885**
 

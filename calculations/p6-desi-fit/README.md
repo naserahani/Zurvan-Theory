@@ -94,8 +94,8 @@ $\omega_m = \Omega_m h^2$. Solving the three self-consistently (`omh2.py`):
 **This is the model's outstanding difficulty, and it is stated here rather than left for a
 reader to find.** $\omega_m$ is fixed by the acoustic peak structure and damping tail at
 $z \approx 1100$ — early-universe physics that late-time dark energy does not alter. In
-this model $\Omega_\Lambda$ at recombination is $\sim 2.5\times10^{-4}$, changing $H$ by
-under 0.03% there, so the CMB constraint applies to it as well.
+this model $\Omega_\Lambda$ at recombination is $\simeq 1.7\times10^{-4}$, changing $H$ by
+under 0.01% there, so the CMB constraint applies to it as well.
 
 *No σ value is quoted for this difference.* The Planck number is inferred within ΛCDM;
 quoting a σ between it and a non-ΛCDM model's requirement would be the same
@@ -123,6 +123,7 @@ python3 p6_fit.py         # BAO fits; writes p6_results.npy
 python3 p6_errors.py      # 1-sigma intervals, c_H constraint, residuals, figure
 python3 p6_1_fast.py      # closed-form BAO scan; the r_d prior result
 python3 omh2.py           # self-consistent omega_m (no data needed)
+python3 wz_history.py     # Table 1 and Figure 1 of the paper
 python3 p6_2_pantheon.py  # supernovae + combination   [needs pantheon/]
 ```
 
@@ -146,8 +147,11 @@ Tested with numpy 1.26, scipy 1.11, matplotlib 3.6.
 | `p6_1_fast.py` | closed-form BAO scan; demonstrates the $r_d$-prior result |
 | `p6_2_pantheon.py` | Pantheon+ likelihood, SN/BAO concordance, combination |
 | `omh2.py` | self-consistent $\omega_m$, $h$, $r_d$ per model |
+| `wz_history.py` | integrates the model from the fitted $\Omega_{\Lambda 0}$; writes `wz_table.tex` and `wz_figure.pdf`, which are **Table 1 and Figure 1 of the paper** |
+| `wz_table.tex` | the eight table rows, as generated |
 | `p6_hde_vs_desi.png` | $w(z)$ history and BAO distance ratios |
 | `p6_2_sn_bao.png` | SN, BAO and combined $\Omega_{m0}$ likelihoods per model |
+| `wz_figure.pdf` | $w(z)$ and $\Omega_\Lambda(z)$ histories — Figure 1 of the paper |
 
 ## Caveats
 
