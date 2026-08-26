@@ -60,8 +60,11 @@ fig, ax = plt.subplots(figsize=(6.4, 4.0))
 ax.plot(zg, wg, lw=2.2, color="#b5533c",
         label=r"$c_H=1$:  $w=-\frac{1}{3}-\frac{2}{3}\sqrt{\Omega_\Lambda(z)}$")
 ax.axhline(-1, color="0.35", lw=1.4, ls="--", label=r"$\Lambda$CDM")
+# (w0, wa) = (-0.42, -1.75): a CPL fit to DESI DR2 BAO alone. Provenance not
+# yet verified against the DESI tables; the legend therefore states no numbers.
+# See decisions/ for the open item.
 ax.plot(zg, -0.42 - 1.75 * zg / (1 + zg), lw=1.5, color="#4a7c59", ls=":",
-        label=r"DESI CPL fit ($w_0=-0.42,\ w_a=-1.75$)")
+        label=r"CPL fit to DESI DR2 BAO (see text)")
 ax.scatter([0], [w(OL0)], s=34, color="#b5533c", zorder=5)
 ax.annotate(rf"$w_0={w(OL0):.3f}$", (0.06, w(OL0)), fontsize=9, va="center")
 ax.set_xlabel(r"$z$"); ax.set_ylabel(r"$w(z)$")
