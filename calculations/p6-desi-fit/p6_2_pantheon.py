@@ -167,7 +167,8 @@ for label in ("flat LCDM", "HDE c_H=1"):
 
 d = best[("HDE c_H=1", "comb")][2] - best[("flat LCDM", "comb")][2]
 print(f"\nCombined Delta chi2 (HDE - LCDM) = {d:+.2f}   [same parameter count]")
-print(f"   equivalent significance ~ {np.sqrt(abs(d)):.2f} sigma")
+# No significance is quoted: the two models are not nested, so Wilks'
+# theorem does not apply and Delta chi2 cannot be converted to sigma.
 print(f"   (BAO alone: {best[('HDE c_H=1','bao')][2]-best[('flat LCDM','bao')][2]:+.2f};"
       f"  SN alone: {best[('HDE c_H=1','sn')][2]-best[('flat LCDM','sn')][2]:+.2f})")
 
